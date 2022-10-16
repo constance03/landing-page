@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "courier new";
+    src: url(./media/courier-new.ttf);
+ }
+
+ @font-face {
+    font-family: "cambria";
+    src: url(./media/cambria.ttf);
+ }
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: rgba(46,50,55,255);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218,229,232,255);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vh;
+    padding: 2vh 3vw;
+    background-color: rgb(49,47,42,1);
+    color:rgb(235, 238, 243, 1);
+    font-family: 'Courier New';
+}
+
+h4 {
+    padding: 0;
+    width: 38vw;
+}
+
+input {
+    text-align: center;
+    width: 20vw;
+    height: 5vh;
+    border: 0.06rem solid;
+    border-radius: 0.3rem;
+    box-shadow: 0.1rem 0.1rem 0.4rem #a9a7a7;
+}
+
+section {
+    background-color: rgba(132, 132, 140, 0.262);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.introducao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(180,188,190);
+    background-image: url("./media/sneakers.png");
+    background-size: cover;
+    padding: 6vh;
+    row-gap: 5vh;
+}
+
+h3, h2 {
+    text-align: center;
+    font-family: 'Cambria';
+    padding: 0;
+}
+
+h3 {
+    padding: 2vh;
+    width: 50vw;
+    background-color: rgb(235, 238, 243, 1);
+}
+
+h2 {
+    color: rgb(235, 238, 243, 1);
+    background-color:  rgb(49,47,42,1);
+    padding: 1vh;
+}
+
+.modelos-tenis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10vw;
+}
+
+.tenis1, .tenis2, .tenis3, .tenis4 {
+    padding: 2vw;
+    width: 35vw;
+    background-color: rgba(132, 132, 140, 0.262);
+}
+
+.tenis1:hover {
+    background-color:  rgb(180,188,190);
+}
+.tenis2:hover {
+    background-color:  rgb(180,188,190);
+}
+.tenis3:hover{
+    background-color:  rgb(180,188,190);
+}
+.tenis4:hover {
+    background-color:  rgb(180,188,190);
+}
+
+li {
+    list-style-type: none;
+}
+
+#link-tenis {
+    color: rgb(49,47,42,1);
+}
+
+a {
+    color: rgb(235, 238, 243, 1);
+    text-decoration: none;
+
+}
+
+#link-redes {
+    text-decoration: none;
+    color: rgb(49,47,42,1);
+}
+
+img {
+    max-width: 30vw;
+    max-height: 40vh;
+    width: auto;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(124,132,140);
+    gap: 2vh;
+    padding: 2vh 3vw;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 10vw;
+}
